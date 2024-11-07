@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnKali"
+        android:layout_width="194dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="54dp"
+        android:text="Kali"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnTambah"
+        android:layout_width="194dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="21dp"
+        android:text="Tambah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBagi" />
+
+    <Button
+        android:id="@+id/btnModulo"
+        android:layout_width="194dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="30dp"
+        android:text="Modulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnKurang" />
+
+    <Button
+        android:id="@+id/btnKurang"
+        android:layout_width="194dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="25dp"
+        android:text="Kurang"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTambah" />
+
+    <Button
+        android:id="@+id/btnBagi"
+        android:layout_width="194dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="18dp"
+        android:text="Bagi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnKali" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="111dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Kalkulator Sederhana"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
